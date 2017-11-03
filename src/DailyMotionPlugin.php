@@ -11,7 +11,7 @@ class DailyMotionPlugin extends AbstractPlugin {
 
 	protected $url_pattern = 'dailymotion.com';
 	
-	public function onCompleted(ProxyEvent $event){
+	public function onCompleted(MirrorEvent $event){
 		
 		$response = $event['response'];
 		$content = $response->getContent();
