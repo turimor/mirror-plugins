@@ -1,0 +1,14 @@
+{
+	"name": "turmor/mirror-plugins",
+	"description": "Mirror Plugins",
+	"type": "library",
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"Mirror\\Plugin\\": "src/"
+		},
+		"files": [
+			"src/utils.php"
+		]
+	}
+}
